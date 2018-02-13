@@ -41,3 +41,7 @@ def groenne_omr_areal(groenne_omraader, label_field, geom_atlas, feature, parent
 		html.append('</tr>')
 	html.append('</table>')
 	return ''.join(html)
+	
+@qgsfunction(args='auto', group='Custom')
+def groenne_omr_tid(feature, parent):
+	pass
